@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tak toe</title>
+    <link rel="stylesheet" href="tictaktoe.css">
+    <link rel="stylesheet" href="slidebar.css">
+    <link rel="stylesheet" href="heading.css">
+    <link rel="stylesheet" href="boxes.css">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    
+    <div id="h1">
+        <h1>Tic Tak Toe game :3</h1>
+    </div>
+    
+    <div class="msg-container  hide">
+        <p id="msg">winner</p>
+        <button id="new-game">New Game</button>
+    </div>
+    <div class="side-bar">
+        <button class="about" onclick="toggleAbout()">about</button>
+        <div class="para"  id="about-info">
+            <p>i made this game through HTML CSS and JAVA SCRIPT, it is a very basic game to clear my concepts in web devolpment, my next plan is to add ai in this, so that we can play VS in single player, happy journey :3</p>
+        </div> 
+
+        <button class="howtoplay" onclick="togglehowtoplay()">How to play?</button>
+        <div class="paras" id="howtoplayttt">
+            <p>To play Tic-Tac-Toe, two players take turns marking spaces in a 3×3 grid—one uses X and the other uses O. The goal is to be the first to get three of your marks in a row, either horizontally, vertically, or diagonally. Players take turns placing their symbol in an empty square, and the game ends when one player wins or when all squares are filled with no winner, resulting in a draw</p>
+        </div>
+    </div>
+
+    
+    
+    <div class="container">
+        
+    <div class="dabba">
+    <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+    </div>
+    </div>
+    </div>
+    <button id="reset-btn">Reset-btn</button>
+    <script src="app.js"></script>
+    <script src="bubble.js"></script>
+</body>
+</html>
