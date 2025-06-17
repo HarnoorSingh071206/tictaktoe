@@ -1,0 +1,80 @@
+/* About Button Styling */
+.about {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    background-color: rgb(216, 133, 210);
+    color: white;
+    border: none;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about:active {
+    transform: scale(1.2);
+    background-color: rgb(197, 102, 193);
+}
+
+/* Paragraph content in About */
+.para {
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.howtoplay {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    background-color: rgb(216, 133, 210);
+    color: white;
+    border: none;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1vmin;
+}
+.howtoplay:active {
+    transform: scale(1.2);
+    background-color: rgb(197, 102, 193);
+}
+
+/* Paragraph content in About */
+.paras {
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+
+/* Sidebar overlay */
+.side-bar {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    width: 15vw;
+    max-width: 250vw;
+    background-color: rgb(216, 84, 192);
+    padding: 5px;
+    color: white;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    margin-top: 15vh;
+    
+}
+
+/* Responsive sidebar */
+@media (max-width: 768px) {
+    .side-bar {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        max-width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+}

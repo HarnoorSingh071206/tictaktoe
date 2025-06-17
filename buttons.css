@@ -1,0 +1,59 @@
+.controls {
+    margin-top: 2vh;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Reset Button Styling */
+#reset-btn {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    background-color: lavender;
+    color: black;
+    border-radius: 2.5rem;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 1vh;
+    border: 1px solid rgb(2, 2, 3);
+}
+#reset-btn:active {
+    transform: scale(1.2);
+    background-color: rgb(241, 151, 166);
+}
+
+
+#new-game{
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: rgb(220, 31, 182);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid rgb(2, 2, 3);
+    
+}
+
+#new-game:active {
+    transform: scale(1.2);
+    background-color: rgb(200, 61, 158);
+}
+
+#msg{
+    color: rgb(161, 61, 149);
+    font-size: 6vmin;
+}
+
+.msg-container{
+    height: 5vmin;
+    margin-bottom: 1.5vh;
+}
+
+.hide{
+    display: none;
+}
